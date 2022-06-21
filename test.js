@@ -24,9 +24,9 @@ test(" result should be 1487.2093023255813 ", function(){
     expect(fromDollarToYen(15)).toBe(1487.2093023255813);
 })
 
-test(" result should be  ", function(){
+test(" result should be 0.0437842064112588  ", () => {
 
     const { fromYentoPound } = require('./app.js')
 
-    expect(fromYentoPound()).toBe();
+    expect(fromYentoPound(7)).toBe(0.0437842064112588);
 })

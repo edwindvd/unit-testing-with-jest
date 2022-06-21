@@ -5,18 +5,22 @@ const fromEuroToDollar = function(valueInEuro){
     // retornamos el valor
     return valueInDollar;
 }
+console.log(fromEuroToDollar(1));
+//  probando la funcion
 
 const fromDollarToYen = function(valueInDollar){
 return (valueInDollar / 1.29) * 127.9;
 // let valueInYen = valueInEuro * 127.9; 
 }
-// console.log(fromDollarToYen(15)); probando la función
+console.log(fromDollarToYen(1)); 
+// probando la función
 
 const fromYentoPound = function(valueInYen){
     let valueInPound = (valueInYen / 127.9) * 0.8; 
     return  valueInPound;
 }
-// console.log(fromYentoPound(1)); probando la función
+console.log(fromYentoPound(7));
+//  probando la función
 
 const sum = (a,b) => {
     return a + b
